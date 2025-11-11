@@ -205,17 +205,17 @@
 # print(result)
 
 
-class f_tri:
-    def flod_tri(self,s):
-        for i in range(s):
-            for j in range(i+1):
-                print(j+i,end = " ")
-            print(" ")
+# class f_tri:
+#     def flod_tri(self,s):
+#         for i in range(s):
+#             for j in range(i+1):
+#                 print(j+i,end = " ")
+#             print(" ")
 
-obj = f_tri()
-s = int(input())
-result = obj.flod_tri(s)
-print(result)
+# obj = f_tri()
+# s = int(input())
+# result = obj.flod_tri(s)
+# print(result)
 
 
 
