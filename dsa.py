@@ -180,4 +180,42 @@
 # print(result)
 
 
+# class lt_tri:
+#     def left_tri(self,s):
+#         for i in range(1,s+1):
+#             print(" "*(s-i))
+#             for j in range(1,i+1):
+#                 print("*")
+
+# obj = lt_tri()
+# s = int(input())
+# result = obj.left_tri(s)
+# print(result)
+
+# class n_t:
+#     def num_tri(self,s):
+#         for i in range(s):
+#             for j in range(i+1):
+#                 print(j+1,end = " ")
+#             print(" ")
+
+# obj = n_t()
+# s = int(input())
+# result = obj.num_tri(s)
+# print(result)
+
+
+class f_tri:
+    def flod_tri(self,s):
+        for i in range(s):
+            for j in range(i+1):
+                print(j+i,end = " ")
+            print(" ")
+
+obj = f_tri()
+s = int(input())
+result = obj.flod_tri(s)
+print(result)
+
+
 
